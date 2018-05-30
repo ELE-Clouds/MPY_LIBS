@@ -9,14 +9,11 @@ HT1621x 驱动使用说明
 
 *[HT1621B][ht]驱动[GDC03849][gdcl]段码液晶的方法*<BR>
 
-<pre><code>
+<pre><code python>
 # 示例代码
 from ht1621x import HT1621B
 from gdc03849 import GDC03849
- 
 from machine import Pin
-from dht import DHT11
-from time import sleep
 
 # 引脚定义
 CS = Pin("A0")
@@ -32,7 +29,6 @@ gdc.viewTemp(123.45)
 
 # 在LCD中显示湿度
 gdc.viewRH(123.45)
-
 </code></pre>
 
 
