@@ -38,4 +38,4 @@ gdc.viewRH(123.45)
 
 [gdc]:./img/gdc03849.png 'GDC03849段式液晶'
 [ht]:http://www.holtek.com.cn 'HOLTEK'
-[gdcl]:https://www.good-display.cn '大连佳显'
+[gdcl]:http://www.good-display.cn '大连佳显'
